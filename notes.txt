@@ -1,0 +1,10 @@
+- same requests caching (local storage or any other solution)
+- Promise.all or similar on js server to make the solution cleaner.
+- UI (fancy slider + dynamic icons [clouds, rain, sunny, etc.])
+- UX (better errors) [not through alerts]
+- Make api more restful (instead of /data/get make /forecast GET, UPDATE, POST, DELETE )
+- make production build for front end production + maybe some webpack optimizations are available like splitting in chunks?
+- WCAG, Accessibility.
+- if move to prod -> make server return the index.html that has all the refs for the build version of app logic.
+- if app gets bigger, manage state through context OR redux.
+- Add error boundaries for better UI error handling
